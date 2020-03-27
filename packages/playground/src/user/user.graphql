@@ -1,0 +1,22 @@
+# type User {
+#   id: Int!
+#   firstName: String!
+#   lastName: String
+#   isActive: Boolean
+# }
+
+# type Query {
+#   _empty: String
+#   users: [User]!
+# }
+
+# type Mutation {
+#   _empty: String
+#   createUser(input: CreateUserInput): User
+# }
+
+# input CreateUserInput {
+#   firstName: String!
+#   lastName: String
+#   isActive: Boolean
+# }

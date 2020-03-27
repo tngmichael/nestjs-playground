@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "declaration": true,
+    "removeComments": true,
+    "target": "es2017",
+    "sourceMap": false,
+    "outDir": "./dist",
+    "skipLibCheck": true
+  },
+  "include": ["src/lib", "src/utils", "src/index.ts"],
+  "exclude": ["node_modules", "src/**/files/**"]
+}
